@@ -39,7 +39,7 @@ body {
 header {
   width: 100%;
   height: 100vh;
-  background: url(../images/men.jpg) no-repeat;
+  background: url(../images/canva8.jpeg) no-repeat;
   background-size: cover;
   position: relative;
   /* clip-path: polygon(100% 0,100% 85%,50% 100% ,0 85% ,0 0); */
@@ -56,41 +56,13 @@ header {
   background-color: rgba(0, 0, 0, 0.15) !important;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
-.navbar-dark .navbar-toggler:focus {
-  outline: 1px dotted deepskyblue;
-}
-.navbar-brand {
-  padding-bottom: 0rem;
-  font-size: 2.25rem;
-  font-family: 'Nunito', sans-serif;
-  font-weight: 900;
-}
-.M,
-.dot {
-  color: deepskyblue;
-  font-weight: 600;
-}
 .navbar-nav .nav-link {
   color: var(--main-txt-color) !important;
   font-family: 'Nunito', sans-serif;
   font-size: 1.1rem;
   font-weight: 600;
 }
-.navbar-nav .nav-link:hover {
-  color: deepskyblue !important;
-  transition: all 0.2s linear;
-  -webkit-transition: all 0.2s linear;
-  -moz-transition: all 0.2s linear;
-}
-.navbar-nav .active {
-  color: deepskyblue !important;
-}
-.navbar-nav .active:hover {
-  color: var(--main-txt-color) !important;
-}
-a {
-  color: #000;
-}
+
 /* header close */
 /* intro start styling || Landing Page */
 .typed-cursor {
@@ -182,7 +154,7 @@ section {
 
 /* skills section styling */
 .line-effect {
-  border-bottom: 3px groove deepskyblue;
+  border-bottom: 3px groove #000;
 }
 .progress {
   background: #9e9e9e6e;
@@ -393,10 +365,6 @@ hr {
     padding-right: 0.8rem !important;
     padding-left: 0.8rem !important;
     padding: 0rem 0rem;
-  }
-  .navbar-expand-lg .navbar-nav {
-    justify-content: flex-end;
-    width: 100%;
   }
   .same-style {
     font-size: 1rem;
